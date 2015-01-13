@@ -8,31 +8,51 @@ header {
   height: 400px;
 
 }
-.aboutsearch li a {
+
+.aboutsearch {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #000066;
-  padding-left: 10px;
-  text-decoration: none;
-  float:right;
+  float: right;
+  padding-right: 300px;
+
+ }
+
+.aboutsearch a {
+    text-decoration: none;
+    color: #000066;
 
 
 }
-.aboutsearch {
-    padding: 0;
-    padding-right: 100px;
+.aboutsearch a:hover {
+    color: #000066;
 }
 .blog {
-  font-family: 'Arimo', sans-serif;
-  padding-left: 15%;
-  padding-top: 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000066;
+    display: inline;
+    text-align: left;
+    padding-left: 300px;
+
 
 }
+.blog img {
+    opacity: 0.5;
+
+
+}
+.search img {
+    height:20px;
+    width:20px;
+    padding-left: 5px;
+    color: #000066;
+}
+
 .header {
   font-family: 'Roboto Condensed', sans-serif;
   color:white;
   text-align: center;
   font-size: 100px;
-  padding-top:8%;
+  padding-left: 30px;
+  padding-top:8px;
 
 
 }
@@ -124,11 +144,14 @@ p {
 
 }
 .social ul  {
-    text-decoration: none;
+    text-decoration:none;
     text-align: center;
     word-spacing: 10px;
     padding-right: 15%;
-    color
+}
+.social a {
+    text-decoration: none;
+    color: #888888;
 }
 .anne  {
   Background: linear-gradient(
@@ -187,7 +210,17 @@ button {
   padding-left:2%;
   margin: 5px;
   background:#888888;
+
 }
+button img {
+    height:15px;
+    width: 15px;
+}
+
+/*footer*/
+
+
+
 h1 {
   font-family: 'Roboto Condensed', sans-serif;
   color: #000066;
@@ -281,32 +314,54 @@ h1 {
 
 
 
-
-
+/*navigation section */
 
 .navs {
+    font-family: 'Arimo', sans-serif;
     background: #233354;
     width: 100%;
     height: 80px;
     float:left;
     margin:0;
     padding:0;
+    display: inline;
+
 
 
 }
-.navs li {
+
+
+.nav a {
     display: inline-block;
-    colo: #abc8c5;
+    color: #abc8c5;
     padding:30;
+    text-decoration: none;
+    font-size: 10px;
+    float: right;
+
 }
 
 .nav {
     float: right;
 }
+
+.copy {
+    color: #ABC8C5;
+    display: inline;
+    font-size: 10px;
+    vertical-align: middle;
+}
+.copy img {
+    height: 75px;
+    width: 75px;
+
+}
 footer{
   clear:both;
   padding-top: 30px;
 }
+
+
 #wrapper {
   max-width: 780px;
   margin-right: auto;

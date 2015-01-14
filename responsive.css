@@ -8,7 +8,7 @@
         font-size: 25px;
         align-text: center;
         padding-top:100%
-        
+
 
 
 
@@ -143,30 +143,20 @@
     h1 {
         text-align: center;
         font-size: 25px;
-
-    }
-    .posts a {
-        display: block;
-        width: 100%;
-    }
+}
     .posts {
         display: block;
-        margin-left: 10%;
-        height:800px;
         width:80%;
 
     }
-    .post1 {
-        height: 200px;
+    .posts a{
+        min-height: 200px;
         width: 100%;
+        display: block;
     }
-    .post2 {
-        height: 200px;
-        width: 100%;
-    }
-    .post3 {
-        height: 200px;
-        width: 100%;
+
+    .posts a:last-child {
+        display:none;
     }
 
 

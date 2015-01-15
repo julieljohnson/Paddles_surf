@@ -1,0 +1,229 @@
+header {
+  background: linear-gradient(rgba(4, 94, 184, 0.7), rgba(4, 94, 184, 0.7)), url("./images/wave1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px; }
+
+.blog {
+  font-family: Roboto Condensed, sans-serif;
+  color: #000066;
+  display: inline;
+  text-align: left;
+  padding-left: 300px; }
+  .blog img {
+    opacity: 0.5; }
+
+.aboutsearch {
+  font-family: Roboto Condensed, sans-serif;
+  float: right;
+  padding-right: 300px; }
+  .aboutsearch a {
+    text-decoration: none;
+    color: #000066; }
+    .aboutsearch a:hover {
+      color: #000066; }
+      .aboutsearch a:hover img {
+        height: 20px;
+        width: 20px;
+        padding-left: 5px;
+        color: #000066; }
+
+.header {
+  font-family: Roboto Condensed, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  padding-left: 30px;
+  padding-top: 8px; }
+
+.ironyard {
+  font-family: Arimo, sans-serif;
+  color: #000066;
+  font-size: 12px;
+  text-align: center;
+  height-line: 15px; }
+
+.wrapper {
+  max-width: 780px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 30px; }
+  .wrapper .section {
+    width: 60%;
+    float: left;
+    padding: 0%;
+    margin-top: 2%; }
+    .wrapper .section .fantastic {
+      font-family: Roboto Condensed, sans-serif;
+      color: #000066;
+      font-size: 45px;
+      line-height: 40px; }
+    .wrapper .section .annewrite ul {
+      margin: 0;
+      padding: 0%; }
+      .wrapper .section .annewrite ul li {
+        font-family: Arimo, sans-serif;
+        font-size: 10px;
+        display: inline-block; }
+        .wrapper .section .annewrite ul li:nth-child(4) {
+          color: grey; }
+          .wrapper .section .annewrite ul li:nth-child(4) a {
+            text-decoration: none;
+            color: #3366CC; }
+      .wrapper .section .annewrite ul .annesmall {
+        Background: linear-gradient(rgba(4, 94, 184, 0.7), rgba(4, 94, 184, 0.7)), url("./images/anne.jpg");
+        background-size: cover;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; }
+    .wrapper .section p {
+      color: #888888;
+      font-family: Arimo, sans-serif;
+      font-size: 12px;
+      line-height: 20px; }
+    .wrapper .section .woah {
+      font-family: Arimo, sans-serif;
+      color: #3366CC;
+      font-size: 25px;
+      text-indent: 20px;
+      border-left: solid 2px; }
+    .wrapper .section button {
+      padding-left: 2%;
+      margin: 5px;
+      background: #888888; }
+      .wrapper .section button:hover {
+        background: #0066CC; }
+        .wrapper .section button:hover button img {
+          height: 5%;
+          width: 5%; }
+  .wrapper .sidebar {
+    float: right;
+    padding: 0%;
+    margin-top: 2%;
+    width: 250px; }
+    .wrapper .sidebar .anne {
+      Background: linear-gradient(rgba(4, 94, 184, 0.7), rgba(4, 94, 184, 0.7)), url("./images/anne.jpg");
+      background-size: cover;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    .wrapper .sidebar h5 {
+      font-family: Roboto Condensed, sans-serif;
+      text-align: center; }
+    .wrapper .sidebar .social ul {
+      text-decoration: none;
+      text-align: center;
+      word-spacing: 10px;
+      padding-right: 15%; }
+      .wrapper .sidebar .social ul li {
+        font-family: Roboto Condensed, sans-serif;
+        display: inline-block;
+        color: #888888;
+        font-size: 10px; }
+        .wrapper .sidebar .social ul li a {
+          text-decoration: none;
+          color: #888888; }
+    .wrapper .sidebar .paddleboard {
+      Background: linear-gradient(rgba(4, 94, 184, 0.7), rgba(4, 94, 184, 0.7)), url("./images/paddleboard.jpg");
+      background-size: cover;
+      width: 200px;
+      height: 200px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    .wrapper .sidebar .AD {
+      font-family: Roboto Condensed, sans-serif;
+      float: right;
+      text-decoration: none;
+      font-size: 10px;
+      padding-right: 26px;
+      color: #888888; }
+    .wrapper .sidebar .sidehead {
+      font-family: Roboto Condensed, sans-serif;
+      color: #3366CC;
+      font-size: 15px;
+      display: block;
+      padding-top: 30px; }
+    .wrapper .sidebar p {
+      color: #888888;
+      font-family: Arimo, sans-serif;
+      font-size: 12px;
+      line-height: 20px; }
+
+footer {
+  clear: both;
+  padding-top: 30px; }
+  footer h1 {
+    font-family: Roboto Condensed, sans-serif;
+    color: #000066;
+    text-align: center;
+    font-size: 50px;
+    border-top: solid 1px #888888; }
+  footer .posts a {
+    margin: 0;
+    display: inline-block;
+    width: 25%;
+    padding-bottom: 25%;
+    background-size: cover !important;
+    color: #233354;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Roboto Condensed, sans-serif;
+    position: relative; }
+    footer .posts a:hover {
+      color: white; }
+  footer .post1 {
+    background: linear-gradient(rgba(4, 94, 184, 0.7), rgba(4, 94, 184, 0.7)), url("./images/paddleboardman.jpg"); }
+    footer .post1:hover {
+      background: linear-gradient(rgba(4, 94, 184, 0), rgba(4, 94, 184, 0)), url("./images/paddleboardman.jpg"); }
+  footer .post2 {
+    background: linear-gradient(rgba(4, 94, 184, 0.7), rgba(4, 94, 184, 0.7)), url("./images/beer.jpg"); }
+    footer .post2:hover {
+      background: linear-gradient(rgba(4, 94, 184, 0), rgba(4, 94, 184, 0)), url("./images/beer.jpg"); }
+  footer .post3 {
+    background: linear-gradient(rgba(4, 94, 184, 0.7), rgba(4, 94, 184, 0.7)), url("./images/beard.png"); }
+    footer .post3:hover {
+      background: linear-gradient(rgba(4, 94, 184, 0), rgba(4, 94, 184, 0)), url("./images/beard.png"); }
+  footer .post4 {
+    background: linear-gradient(rgba(4, 94, 184, 0.7), rgba(4, 94, 184, 0.7)), url("./images/images2.jpg"); }
+    footer .post4:hover {
+      background: linear-gradient(rgba(4, 94, 184, 0), rgba(4, 94, 184, 0)), url("./images/images2.jpg"); }
+  footer .post {
+    position: absolute;
+    bottom: 0; }
+  footer .navs {
+    font-family: 'Arimo', sans-serif;
+    -webkit-background-color: #002245;
+    background-color: #002245;
+    width: 100%;
+    height: 80px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: inline; }
+  footer .copy {
+    color: #ABC8C5;
+    display: inline-block;
+    font-size: 10px;
+    vertical-align: middle; }
+    footer .copy img {
+      height: 75px;
+      width: 75px; }
+  footer .nav {
+    float: right; }
+    footer .nav a {
+      -webkit-display: inline-block;
+      display: inline-block;
+      color: #abc8c5;
+      padding: 30;
+      text-decoration: none;
+      font-size: 10px;
+      float: right;
+      vertical-align: middle; }

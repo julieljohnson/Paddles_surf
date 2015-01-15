@@ -1,22 +1,14 @@
-$font-stack1: Roboto Condensed, sans-serif;
-$font-stack2: Arimo, sans-serif;
-$color-gray: #888888;
-$darkblue: #000066;
-$lightblue: #3366CC;
-
-
-
-
-
+@import "variables";
 
 header {
    background: linear-gradient(
    rgba(4, 94, 184, 0.70),
    rgba(4, 94, 184, 0.70)
    ), url("./images/wave1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 400px;
+}
 
   .blog {
       font-family: $font-stack1;
@@ -59,8 +51,8 @@ header {
       font-size: 100px;
       padding-left: 30px;
       padding-top:8px;
-  }
 
+  }
   .ironyard {
       font-family: $font-stack2;
       color: $darkblue;
@@ -69,7 +61,7 @@ header {
       height-line: 15px;
   }
 
-}
+
 
 .wrapper {
     max-width: 780px;
@@ -95,25 +87,22 @@ header {
         padding: 0%;
 
 
-         li {
+          li {
             font-family: $font-stack2;
             font-size: 10px;
             display: inline-block;
-            vertical-align: middle;
 
 
-
-             $:nth-child(4) {
+             &:nth-child(4) {
                 color: grey;
-
 
 
                  a  {
                     text-decoration: none;
                     color:#3366CC;
-                }
             }
-        }
+         }
+                 }
 
     .annesmall {
         Background: linear-gradient(
@@ -146,27 +135,29 @@ header {
         text-indent: 20px;
         border-left: solid 2px;
     }
+
     button {
         padding-left:2%;
         margin: 5px;
         background:$color-gray;
 
-        $:hover {
+        &:hover {
             background: #0066CC;
 
             button img {
-                height:15px;
-                width: 15px;
+                height:5%;
+                width: 5%;
             }
         }
     }
+}
 
     .sidebar {
         float:right;
         padding:0%;
         margin-top: 2%;
         width: 250px;
-    }
+
 
     .anne  {
         Background: linear-gradient(
@@ -174,7 +165,7 @@ header {
         rgba(4, 94, 184, 0.70)
         ), url("./images/anne.jpg");
         background-size: cover;
-        border-radius: 50%;
+        @include border-radius(50%);
         width: 50px;
         height: 50px;
         display:block;
@@ -184,7 +175,7 @@ header {
     }
 
     h5 {
-        font-family: 'Arimo', sans-serif;
+        font-family: $font-stack1;
         text-align:center;
     }
 
@@ -195,14 +186,14 @@ header {
         padding-right: 15%;
 
         li  {
-            font-family: 'Arimo', sans-serif;
+            font-family: $font-stack1;
             display: inline-block;
             color: $color-gray;
             font-size: 10px;
 
              a {
                 text-decoration: none;
-                color: #888888;
+                color: $color-gray;
             }
         }
     }
@@ -236,13 +227,15 @@ header {
         display: block;
         padding-top: 30px;
     }
-
-
+    p {
+        color: $color-gray;
+        font-family: $font-stack2;
+        font-size: 12px;
+        line-height: 20px;
     }
-
-    }
-
 }
+}
+
 
 footer {
     clear:both;
@@ -269,14 +262,9 @@ footer {
         position: relative;
 
 
-        $:hover {
+        &:hover {
             color:white;
 
-            .post {
-                position:absolute;
-                bottom: 0;
-                padding: 0 0 14px 20px;
-            }
         }
     }
     .post1 {
@@ -285,7 +273,7 @@ footer {
         rgba(4, 94, 184, 0.70)
         ), url("./images/paddleboardman.jpg");
 
-        $:hover {
+        &:hover {
             background: linear-gradient(
             rgba(4, 94, 184, 0.0),
             rgba(4, 94, 184, 0.0)
@@ -299,7 +287,7 @@ footer {
         rgba(4, 94, 184, 0.70)
         ), url("./images/beer.jpg");
 
-        $:hover {
+        &:hover {
             background: linear-gradient(
             rgba(4, 94, 184, 0.0),
             rgba(4, 94, 184, 0.0)
@@ -312,7 +300,7 @@ footer {
         rgba(4, 94, 184, 0.70)
         ), url("./images/beard.png");
 
-        $:hover {
+        &:hover {
             background: linear-gradient(
             rgba(4, 94, 184, 0.0),
             rgba(4, 94, 184, 0.0)
@@ -326,7 +314,7 @@ footer {
         rgba(4, 94, 184, 0.70)
         ), url("./images/images2.jpg");
 
-        $:hover {
+        &:hover {
             background: linear-gradient(
             rgba(4, 94, 184, 0.0),
             rgba(4, 94, 184, 0.0)
@@ -334,9 +322,15 @@ footer {
         }
     }
 
+    .post {
+        position:absolute;
+        bottom: 0;
+
+    }
+
     .navs {
         font-family: 'Arimo', sans-serif;
-        background: #233354;
+        @include background-color(#002245);
         width: 100%;
         height: 80px;
         float:left;
@@ -347,7 +341,7 @@ footer {
 
     .copy {
         color: #ABC8C5;
-        display: inline;
+        display: inline-block;
         font-size: 10px;
         vertical-align: middle;
 
@@ -361,15 +355,14 @@ footer {
         float: right;
 
         a {
-            display: inline-block;
+            @include display(inline-block);
             color: #abc8c5;
             padding:30;
             text-decoration: none;
             font-size: 10px;
             float: right;
+            vertical-align: middle;
 
-        }
-
+         }
     }
-
 }

@@ -1,0 +1,24 @@
+$font-stack1: Roboto Condensed, sans-serif;
+$font-stack2: Arimo, sans-serif;
+
+$color-gray: #888888;
+$darkblue: #000066;
+$lightblue: #3366CC;
+
+
+//testing out mixins//
+
+@mixin background-color($color) {
+    -webkit-background-color: $color;
+    background-color: $color;
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin display($display) {
+    -webkit-display: $display;
+    display: $display;
+}
